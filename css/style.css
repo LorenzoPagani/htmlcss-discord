@@ -1,0 +1,158 @@
+/* Definizioni Generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.dashed-border {
+    border: 1px dashed black;
+}
+
+header {
+    min-height: 100px;
+    background-color: #3161E0;
+    align-content: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 80%;
+    justify-content: space-between;
+    margin: 3% auto;
+    vertical-align: middle;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+
+.container {
+    min-height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    width: 70%;
+    max-width: 1400px;
+    min-height: 300px;
+}
+
+.itemblue {
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.itempink {
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.footer {
+    border-top: 1px solid #D6D7D7;
+    min-height: 100px;
+    justify-content: center;
+    align-items: flex-end;
+}
+img {
+    width: 100%;
+}
+
+/* Definizioni Specifiche */
+
+nav .logo {
+    min-width: 20%;
+    padding: 5px;
+}
+
+nav .link {
+    min-width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+
+nav .login {
+    min-width: 20%;
+    text-align: end;
+    padding: 5px;
+}
+
+.container.one {
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+}
+
+.container.one .intro {
+    background-color: #EE82EE;
+    width: 50%;
+    height: 250px;                
+}
+
+.container.two,
+.four {
+    background-color: #FFFFFF;
+}
+
+.container.three,
+.five {
+    background-color: gray;
+}
+
+.container.three .layout {
+    flex-direction: row-reverse;
+}
+
+.container.five .layout {
+    background-color: #228B22;
+    height: 500px;
+    margin: 2% 0;
+}
+
+.container.six,
+.footer {
+    background-color: black;
+}
+
+.container.six .layout.left {
+    background-color: #F08080;
+    width: calc((70% /6)* 2);
+}
+
+.container.six .layout.right {
+    background-color: #20B2AA;
+    width: calc((70% / 6)* 4);
+}
+
+.container.six .layout.right div {
+    width: calc(100% / 4);
+    border: dashed 1px white;
+}
+
+.footer .layout {
+    background-color: #7FFFD4;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .layout div {
+    background-color: #FFB6C1;
+    padding: 5px;
+}
