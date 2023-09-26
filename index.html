@@ -5,17 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Discord</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="utilities.css">
     </head>
     <body>
         <header class="flex">
 
             <!-- Barra Nav -->
 
-            <nav class="flex dashed-border">
-                <div class="logo dashed-border">
-                    <img src="img/logo.svg" alt="">
+            <nav class="flex">
+                <div class="logo">
+                    <img src="img/logo.svg" alt>
                 </div>
-                <div class="link dashed-border">
+                <div class="link">
                     <ul class="flex">
                         <li>Scarica</li>
                         <li>Perché Discord</li>
@@ -24,68 +25,103 @@
                         <li>Assistenza</li>
                     </ul>
                 </div>
-                <div class="login dashed-border">
+                <div class="login">
                     <button>Accedi</button>
                 </div>
             </nav>
 
-            <!-- Primo container-layout-header -->
+            <!-- container-layout-header -->
 
-            <div class="flex container one">
-                <div class="flex intro dashed-border"></div>
+            <div class="flex container jumbo">
+                <div class="flex intro">
+                    <div class="title white">Il tuo posto per parlare</div>
+                    <div class="white m10">Che tu faccia parte di un club
+                        scolastico, gruppo di gamer, comunità artistica
+                        mondiale, o semplicemente di un piccolo gruppo di amici
+                        che vuole passare il tempo assieme, Discord rende più
+                        facile chiacchierare ogni giorno e ritrovarsi più spesso</div>
+                    <div class="flex just-around w100">
+                        <button><img src="img/down-long.svg" alt=""> Scarica per Mac</button>
+                        <button>Apri Discord nel tuo browser</button>
+                    </div>
+                </div>
             </div>
         </header>
 
         <main>
 
-            <!-- Secondo container-layout -->
+            <!-- container-layout -->
 
-            <div class="flex container two">
-                <div class="flex layout dashed-border">
-                    <div class="itemblue dashed-border"> 
-                        <img src="img/item1.svg" alt="">    
+            <div class="flex container">
+                <div class="flex layout">
+                    <div class="w60">
+                        <img src="img/item1.svg" alt>
                     </div>
-                    <div class="itempink dashed-border"></div>
+                    <div class="w40">
+                        <div class="title">Un luogo a invito con tutto lo spazio
+                            necessario per parlare</div>
+                        <div class="m10">I server Discord sono organizzati in
+                            canali tematici in cui puoi collaborare, condividere
+                            o semplicemente parlare della tua giornata senza
+                            intasare una chat di gruppo</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Terzo container-layout -->
+            <!-- container-layout -->
 
-            <div class="flex container three">
-                <div class="flex layout dashed-border">
-                    <div class="itemblue dashed-border">
-                        <img src="img/item2.svg" alt="">    
+            <div class="flex container bg-lightgray">
+                <div class="flex layout row-rev dashed-border">
+                    <div class="w60 dashed-border">
+                        <img src="img/item2.svg" alt>
                     </div>
-                    <div class="itempink dashed-border"></div>
+                    <div class="w40 dashed-border">
+                        <div class="title">Dove trovarsi é facile</div>
+                        <div class="m10">Mettiti comodo in un canale vocale
+                            quando hai tempo. Gli amici nel tuo server possono
+                            vedere che sei lì e unirsi istantaneamente senza
+                            dover chiamare.</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Quarto container-layout -->
+            <!-- container-layout -->
 
-            <div class="flex container four">
+            <div class="flex container">
                 <div class="flex layout dashed-border">
-                    <div class="itemblue dashed-border">
-                        <img src="img/item3.svg" alt=""> 
+                    <div class="w60 dashed-border">
+                        <img src="img/item3.svg" alt>
                     </div>
-                    <div class="itempink dashed-border"></div>
+                    <div class="w40 dashed-border">
+                        <div class="title">Da pochi a un fandom</div>
+                        <div class="m10">Dai inizio a una community di qualsiasi
+                            dimensione con strumenti di moderazione e accesso ai
+                            membri personalizzabile. Concedi ai membri poteri
+                            speciali, crea canali privati, e molto altro.</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Quinto container-layout -->
+            <!-- container-layout -->
 
-            <div class="flex container five">
+            <div class="flex container bg-lightgray">
                 <div class="flex container">
-                    <div class="flex layout dashed-border">
-                        <img src="img/item4-big.svg" alt="">
+                    <div class="flex column align-cent layout dashed-border">
+                        <div class="title txt-cent">Tecnologia affidabile per tenersi in contatto</div>
+                        <div class="m10 txt-cent">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</div>
+                        <img src="img/item4-big.svg" alt>
+                        <img class="w60" src="img/stars.svg" alt="">
+                        <div class="subtitle">Pronto a iniziare la tua avventura?</div>
+                        <button class="m20 bg-lightblue white"><img src="img/down-long.svg" alt=""> Scarica per Mac</button>
                     </div>
                 </div>
             </div>
         </main>
 
         <footer>
-              <!-- Sesto container-layout-footer -->
+            <!-- container-layout-footer -->
 
-              <div class="flex container six">
+            <div class="flex container bg-dark">
                 <div class="flex layout left dashed-border"></div>
                 <div class="flex layout right dashed-border">
                     <div class="dashed-border"></div>
@@ -96,18 +132,17 @@
             </div>
 
             <!-- container-layout-footer -->
-            
+
             <div class="flex footer">
                 <div class="flex layout">
                     <div class="logo dashed-border">
-                        <img src="img/logo.svg" alt="">
+                        <img src="img/logo.svg" alt>
                     </div>
                     <div class="button dashed-border">bottone</div>
                 </div>
             </div>
 
         </footer>
-        
 
     </body>
 </html>
