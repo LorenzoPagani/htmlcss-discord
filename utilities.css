@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 /* flex */
 
 .flex {display: flex;}
@@ -31,7 +34,7 @@
 .white {color: white;}
 .black {color: black;}
 .blue {color: #3161E0;}
-.lightblue {color: pippo;}
+.lightblue {color: #8EA1E1;}
 .lightgray {color: lightgrey;}
 .name {color: pippo;}
 
